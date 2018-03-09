@@ -4,8 +4,9 @@
   "description": "Sample of an OpenUI5 app",
   "private": true,
   "scripts": {
+    "start": "npm install && bower install && grunt serve",
     "test": "grunt lint && grunt test",
-    "start": "grunt serve",
+    "start-only2": "grunt serve",
     "build": "grunt build",
     "postinstall": "bower install"
   },
